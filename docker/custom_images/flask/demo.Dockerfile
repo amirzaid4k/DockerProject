@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0a3
 
 # example of how to install packages
 RUN apt update && \
