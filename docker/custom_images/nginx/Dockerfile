@@ -1,6 +1,6 @@
 
 # Use the latest version of Ubuntu as a parent image
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Update the Ubuntu software repository
 RUN apt-get update
