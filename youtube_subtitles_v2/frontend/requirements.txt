@@ -2,3 +2,5 @@ flask
 loguru
 locust
 boto3
+gevent>=25.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
