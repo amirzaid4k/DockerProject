@@ -5,7 +5,7 @@ FROM jenkins/jenkins:latest as jenkins
 FROM mongo:latest as mongo
 
 # Final stage
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 # Copy Jenkins from jenkins stage
 COPY --from=jenkins /var/jenkins_home /var/jenkins_home
